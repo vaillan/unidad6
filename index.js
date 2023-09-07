@@ -5,8 +5,8 @@ let listaNumeros = [2, 10, 16, 12, 38, 33, 18, 90, 17, 34];
 let mayor = 0;
 let menor = 0;
 let promedio = 0;
-// Write Javascript code!
 
+// Write Javascript code!
 const recorrerLista = () => {
   let numMayorResult = 0;
   let numMenorResult = 0;
@@ -46,7 +46,6 @@ const recorrerLista = () => {
 function setAlert() {
   let alert = document.getElementById('alert');
   alert.removeAttribute('hidden');
-
   alert.innerHTML = `
   <div class="text-break">
     <p>Numero Mayor: ${mayor}</p>
