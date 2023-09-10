@@ -1,13 +1,14 @@
 // Import stylesheets
 import './style.css';
 
+//Variables globales
 let listaNumeros = [2, 10, 16, 12, 38, 33, 18, 90, 17, 34];
 let mayor = 0;
 let menor = 0;
 let promedio = 0;
 
-// Write Javascript code!
-const recorrerLista = () => {
+// Inicio del proceso general de la aplicación
+function recorrerLista() {
   let numMayorResult = 0;
   let numMenorResult = 0;
   let suma = 0;
